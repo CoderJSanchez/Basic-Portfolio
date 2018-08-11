@@ -1,15 +1,40 @@
 body{
     background-image: url("../images/circles-light.png"); 
+    color: #777777;
+}
+
+header{
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+}
+
+h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#nameLogo{
+    color: #4aaaa5;
+}
+
+nav li a{
+    text-decoration: none;
 }
 
 header,
 #aboutWrapper{
     width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #ffffff;
+}
 
+#aboutWrapper{
+    border: 2px solid #dddddd;
 }
 
 img{
     width: 200px;
+}
+
+footer{
+    background-color: #666666;
 }
