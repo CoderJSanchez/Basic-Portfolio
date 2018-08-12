@@ -17,12 +17,23 @@ p{
 
 header{
     background-color: #ffffff;
+    margin-bottom: 30px;
+    position: relative;
 }
 
 #mainLogo{
     background-color: #4aaaa5;
     color: #fff;
     font-size: 1.5rem;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+        left: 352px;
+}
+
+#menu{
+    display: inline-block;
+    margin-left: 1090px;
 }
 
 nav li{
@@ -32,6 +43,7 @@ nav li{
 
 nav ul li a{
     text-decoration: none;
+    color:#777;
 }
 
 /*Main Content Section*/
@@ -42,9 +54,6 @@ nav ul li a{
     margin: 0 auto;
 }
 
-#aboutMeWrapper{
-    margin: 15px 15px 15px;
-}
 
 .aboutMe{
     border-bottom: 2px solid #666666;
@@ -54,8 +63,15 @@ img{
     width: 250px;
 }
 
+#aboutMeWrapper{
+    margin: 15px 15px 15px;
+}
+
+
 footer{
     background-color: #666666;
+    height: 50px;
+    text-align: center;
 }
 
 
