@@ -11,6 +11,7 @@ h3{
 
 p{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 .sticky{
@@ -94,6 +95,18 @@ footer{
     padding: 5px 10px;
 }
 
+/*-----PORTFOLIO PAGE CSS------*/
 
+.imageTable{
+    margin: 0 auto;
+}
+
+.imageTable img{
+    opacity: .5;
+}
+
+img:hover{
+    opacity: 1;
+}
 
 
