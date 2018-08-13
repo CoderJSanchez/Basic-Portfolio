@@ -22,10 +22,15 @@ p{
 
 /* Header Section*/
 
+#headerWrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
 header{
     background-color: #ffffff;
     margin-bottom: 30px;
-    position: relative;
+    
 }
 
 #mainLogo{
@@ -34,13 +39,11 @@ header{
     font-size: 1.5rem;
     display: inline-block;
     padding: 10px;
-    position: absolute;
-        left: 369px;
 }
 
 #menu{
     display: inline-block;
-    margin-left: 1090px;
+    float: right;
 }
 
 nav a.current{
@@ -67,6 +70,10 @@ nav a:active{
 
 /*Main Content Section*/
 
+#mainImage{
+    width: 150px;
+}
+
 #mainContentWrapper{
     width: 960px;
     background-color: #fff;
@@ -82,7 +89,7 @@ nav a:active{
 img{
     width: 250px;
     margin-right: 15px;
-    box-shadow: 5px 3px 10px 5px #888888;
+    box-shadow: 5px 3px 10px 6px #888888;
     float: left;
 }
 
@@ -95,6 +102,7 @@ img{
 
 footer{
     background-color: #666666;
+    color: #fff;
     height: 55px;
     text-align: center;
     clear: both;
@@ -126,15 +134,84 @@ footer{
 /*-----PORTFOLIO PAGE CSS------*/
 
 .imageTable{
-    margin: 0 auto;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
 .imageTable img{
     opacity: .5;
+    margin-bottom: 5px;
 }
 
 img:hover{
     opacity: 1;
 }
+
+#td1{
+    position: relative;
+}
+
+.textBlock{
+    position: absolute;
+    top: 60%;
+    width: 94%;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+#td2{
+    position: relative;
+}
+
+.textBlock{
+    position: absolute;
+    top: 60%;
+    width: 94%;
+    height: 40px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#td3{
+    position: relative;
+}
+
+.textBlock{
+    position: absolute;
+    top: 60%;
+    width: 94%;
+    height: 40px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#td4{
+    position: relative;
+}
+
+.textBlock{
+    position: absolute;
+    top: 60%;
+    width: 94%;
+    height: 40px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#td5{
+    position: relative;
+}
+
+.textBlock{
+    position: absolute;
+    top: 60%;
+    width: 94%;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: 
+    text-align: center;
+}
+
 
 
