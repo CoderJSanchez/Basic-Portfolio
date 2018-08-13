@@ -1,5 +1,7 @@
 body{
     background-image: url("../images/circles-light.png");
+    padding: 0;
+    margin: 0;
 }
 
 h1,
@@ -15,7 +17,7 @@ p{
 }
 
 .sticky{
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 55px);
 }
 
 /* Header Section*/
@@ -33,7 +35,7 @@ header{
     display: inline-block;
     padding: 10px;
     position: absolute;
-        left: 352px;
+        left: 369px;
 }
 
 #menu{
@@ -41,14 +43,26 @@ header{
     margin-left: 1090px;
 }
 
+nav a.current{
+    color: blue;
+}
+
 nav li{
     display: inline-block;
     margin-right: 10px;
 }
 
-nav ul li a{
+nav a{
     text-decoration: none;
     color:#777;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a:active{
+    color: gold;
 }
 
 /*Main Content Section*/
@@ -67,18 +81,32 @@ nav ul li a{
 
 img{
     width: 250px;
+    margin-right: 15px;
+    box-shadow: 5px 3px 10px 5px #888888;
+    float: left;
 }
 
 #aboutMeWrapper{
     margin: 15px 15px 15px;
+    overflow: auto;
+    position: relative;
 }
-
+/*-----FOOTER------*/
 
 footer{
     background-color: #666666;
-    height: 50px;
+    height: 55px;
     text-align: center;
     clear: both;
+}
+
+#outerFooter{
+    background-color: #4aaaa5;
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+    clear: both;
+
 }
 
 /*-----CONTACT PAGE CSS------*/
