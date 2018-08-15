@@ -146,7 +146,11 @@ img:hover{
     opacity: 1;
 }
 
-#td1{
+#td1,
+#td2,
+#td3,
+#td4,
+#td5{
     position: relative;
 }
 
@@ -159,58 +163,3 @@ img:hover{
     color: #fff;
     text-align: center;
 }
-
-#td2{
-    position: relative;
-}
-
-.textBlock{
-    position: absolute;
-    top: 60%;
-    width: 94%;
-    height: 40px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-#td3{
-    position: relative;
-}
-
-.textBlock{
-    position: absolute;
-    top: 60%;
-    width: 94%;
-    height: 40px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-#td4{
-    position: relative;
-}
-
-.textBlock{
-    position: absolute;
-    top: 60%;
-    width: 94%;
-    height: 40px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-#td5{
-    position: relative;
-}
-
-.textBlock{
-    position: absolute;
-    top: 60%;
-    width: 94%;
-    height: 40px;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-
-
